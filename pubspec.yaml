@@ -1,0 +1,132 @@
+name: pixelfield
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+  # The app design relies heavily on Lato and EB Garamond, so I used this package to easily apply those fonts across the UI.
+  #I'm also comfortable working with any unique or custom fonts as needed.
+  google_fonts: ^6.2.1
+
+  # To enhance user experience, I used simple animations—for example, a subtle tap animation on buttons.
+  #  It helps make the app feel smoother and more interactive.
+  simple_animations: ^5.0.2
+
+  #This was used to play a video on the "Testing Node" section inside the collection detail screen.
+  #It’s reliable and works well for basic embedded video playback.
+  video_player: ^2.9.2
+
+  # I followed the Clean Architecture pattern and
+  # used flutter_bloc for state management to maintain a clean separation between presentation and business logic.
+  flutter_bloc: ^9.1.0
+
+  #Helps in generating boilerplate code for parsing JSON, making model handling easier and cleaner.
+  json_annotation: ^4.9.0
+
+  # Used for value-based comparisons of state and event classes, which is important for state updates in BLoC.
+  equatable: ^2.0.7
+
+  # I used dartz to handle Success/Error states cleanly using Either<L, R> types, which fits well within a Clean Architecture approach.
+  dartz: ^0.10.1
+
+  #This is used for dependency injection—allowing me to decouple dependencies and make the app easier to manage.
+  get_it: ^8.0.3
+
+  #Used to efficiently load and cache network images, reducing flickering and speeding up the UI rendering especially on repeat loads
+  cached_network_image: ^3.4.0
+
+  #Helps me detect internet connectivity status. I use it to decide when to fetch fresh data or rely on locally cached content.
+  connectivity_plus: ^6.1.3
+
+  #I use Hive to store fetched data locally, so the app can display previously loaded content even when offline.
+  #You can test this by running the app first without internet, then connect to fetch data—it gets saved and works even when you go offline again.
+  hive_flutter: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/json/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

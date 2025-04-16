@@ -1,0 +1,74 @@
+{
+  "collections": [
+    {
+      "id": "1",
+      "imageUrl": "https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/1.png",
+      "name": "Springbank A",
+      "tag": "(112/158)",
+      "license": "1992 #1234"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/2.png",
+      "name": "Springbank B",
+      "tag": "(98/158)",
+      "license": "1993 #5678"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://github.com/HemKumarRai/assets/blob/main/liquid2.png?raw=true",
+      "name": "Springbank C",
+      "tag": "(145/158)",
+      "license": "1994 #9876"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/1.png",
+      "name": "Springbank D",
+      "tag": "(130/158)",
+      "license": "1995 #4321"
+    },
+    {
+      "id": "5",
+      "imageUrl": "https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/2.png",
+      "name": "Springbank E",
+      "tag": "(120/158)",
+      "license": "1996 #1111"
+    },
+    {
+      "id": "6",
+      "imageUrl": "https://github.com/HemKumarRai/assets/blob/main/liquid2.png?raw=true",
+      "name": "Springbank F",
+      "tag": "(100/158)",
+      "license": "1997 #2222"
+    },
+    {
+      "id": "7",
+      "imageUrl": "https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/1.png",
+      "name": "Springbank G",
+      "tag": "(135/158)",
+      "license": "1998 #3333"
+    },
+    {
+      "id": "8",
+      "imageUrl": "https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/2.png",
+      "name": "Springbank H",
+      "tag": "(140/158)",
+      "license": "1999 #4444"
+    },
+    {
+      "id": "9",
+      "imageUrl": "https://github.com/HemKumarRai/assets/blob/main/liquid2.png?raw=true",
+      "name": "Springbank I",
+      "tag": "(110/158)",
+      "license": "2000 #5555"
+    },
+    {
+      "id": "10",
+      "imageUrl": "https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/1.png",
+      "name": "Springbank J",
+      "tag": "(125/158)",
+      "license": "2001 #6666"
+    }
+  ]
+}
