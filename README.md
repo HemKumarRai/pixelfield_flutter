@@ -22,15 +22,14 @@ samples, guidance on mobile development, and a full API reference.
 
 
 📱 Features Implemented
-
-Collection screen
-Collection Details screen
-Offline-first data handling
-Mock JSON integration
-Clean architecture BLoC pattern for state management
-Authentication validation and design implement
-Welcome screen
-Responsive layout (basic)
+Collection screen,
+Collection Details screen,
+Offline-first data handling,
+Mock JSON integration,
+Clean architecture BLoC pattern for state management,
+Authentication validation and design implement,
+Welcome screen,
+Responsive layout (basic),
 Git version control
 
 
