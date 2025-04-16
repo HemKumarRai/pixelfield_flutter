@@ -76,8 +76,10 @@ Git version control
 `flutter pub get`
 `flutter run`
 
+
+![Alt text](https://github.com/HemKumarRai/pixelfield_flutter/blob/master/Screenshot%202025-04-16%20at%2009.40.38.png?raw=true)
 ~~~~Make sure you’re using the latest stable version of Flutter.~~~~
-![Alt text](https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/Screenshot%202025-04-16%20at%2009.34.41.png)
+
 
 
 
