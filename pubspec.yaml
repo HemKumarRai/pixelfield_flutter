@@ -35,43 +35,16 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-
-  # The app design relies heavily on Lato and EB Garamond, so I used this package to easily apply those fonts across the UI.
-  #I'm also comfortable working with any unique or custom fonts as needed.
   google_fonts: ^6.2.1
-
-  # To enhance user experience, I used simple animations—for example, a subtle tap animation on buttons.
-  #  It helps make the app feel smoother and more interactive.
   simple_animations: ^5.0.2
-
-  #This was used to play a video on the "Testing Node" section inside the collection detail screen.
-  #It’s reliable and works well for basic embedded video playback.
   video_player: ^2.9.2
-
-  # I followed the Clean Architecture pattern and
-  # used flutter_bloc for state management to maintain a clean separation between presentation and business logic.
   flutter_bloc: ^9.1.0
-
-  #Helps in generating boilerplate code for parsing JSON, making model handling easier and cleaner.
   json_annotation: ^4.9.0
-
-  # Used for value-based comparisons of state and event classes, which is important for state updates in BLoC.
   equatable: ^2.0.7
-
-  # I used dartz to handle Success/Error states cleanly using Either<L, R> types, which fits well within a Clean Architecture approach.
   dartz: ^0.10.1
-
-  #This is used for dependency injection—allowing me to decouple dependencies and make the app easier to manage.
   get_it: ^8.0.3
-
-  #Used to efficiently load and cache network images, reducing flickering and speeding up the UI rendering especially on repeat loads
   cached_network_image: ^3.4.0
-
-  #Helps me detect internet connectivity status. I use it to decide when to fetch fresh data or rely on locally cached content.
   connectivity_plus: ^6.1.3
-
-  #I use Hive to store fetched data locally, so the app can display previously loaded content even when offline.
-  #You can test this by running the app first without internet, then connect to fetch data—it gets saved and works even when you go offline again.
   hive_flutter: ^1.1.0
 
 
