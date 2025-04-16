@@ -78,3 +78,6 @@ Git version control
 
 ~~~~Make sure you’re using the latest stable version of Flutter.~~~~
 
+<img width="1327" alt="Screenshot 2025-04-16 at 09 31 33" src="https://github.com/user-attachments/assets/6f723bc8-b129-46b0-a82d-fe04f93b21a5" />
+
+
