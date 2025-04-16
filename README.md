@@ -72,7 +72,9 @@ Git version control
 
 
 **🛠️ How to Run**
-flutter pub get
-flutter run
+
+`flutter pub get`
+`flutter run`
+
 ~~~~Make sure you’re using the latest stable version of Flutter.~~~~
 
