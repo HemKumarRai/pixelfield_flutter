@@ -22,6 +22,7 @@ samples, guidance on mobile development, and a full API reference.
 
 
 📱 Features Implemented
+
 Collection screen
 Collection Details screen
 Offline-first data handling
@@ -77,5 +78,7 @@ Git version control
 `flutter run`
 
 ~~~~Make sure you’re using the latest stable version of Flutter.~~~~
+![Alt text](https://raw.githubusercontent.com/HemKumarRai/assets/refs/heads/main/Screenshot%202025-04-16%20at%2009.34.41.png)
+
 
 
